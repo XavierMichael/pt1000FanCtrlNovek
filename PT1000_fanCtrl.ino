@@ -66,7 +66,7 @@ void loop() {
     for(int i=0; i<3; i++)
     {
         temp = thermo.temperature(RNOMINAL, RREF);
-        delay(500)
+        delay(500);
     }
     if(temp> TEMP_THRESHOLD)
     {
